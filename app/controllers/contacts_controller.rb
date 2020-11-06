@@ -9,7 +9,6 @@ class ContactsController < ApplicationController
     else
       render :new
     end
-
   end
   private
   def contact_params
